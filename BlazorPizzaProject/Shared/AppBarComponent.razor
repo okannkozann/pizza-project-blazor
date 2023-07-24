@@ -1,0 +1,42 @@
+﻿
+
+@inject IOrderService orderSerivce
+
+
+@inject NavigationManager navigationManager
+
+<span class="Appbar-wrapper-Widescreen">
+    <SfAppBar ColorMode="AppBarColor.Primary" CssClass="e-bigger" IsSticky=true>
+        <a href="" class="m-2"><span class="oi oi-pie-chart fs-1 text-warning fw-bold"></span></a>
+        @{
+            string o = "my-orders"; string a = "manage";
+        }
+        <SfButton CssClass ="e-inherit" @onclick="(()=> NavigateTo(o))" IconCss="e-icons e-selection">Orders <span class="badge bg-secondary">@orderSerivce</span></SfButton>
+        <SfButton CssClass="e-inherit" @onclick="(()=> NavigateTo(a))" IconCss="e-icons e-field-settings">Adminstration</SfButton>
+        <AppBarSpacer></AppBarSpacer>
+        <SfButton CssClass="e-inherit" Content="SignUp"></SfButton>
+        <SfButton CssClass="e-inherit" Content="Login"></SfButton>
+
+    </SfAppBar>
+</span>
+
+@code {
+    protected override void OnInitialized()
+    {
+        orderSerivce.OnChange += StateHasChanged;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await orderSerivce.RefreshCount();
+    }
+
+    private void NavigateTo(string url)
+    {
+        navigationManager.NavigateTo(url);
+    }
+    private void Dispose()
+    {
+        orderSerivce.OnChange -= StateHasChanged;
+    }
+}

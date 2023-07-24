@@ -1,0 +1,12 @@
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\bin\Debug\net7.0\BlazorPizzaProject.Business.deps.json
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\bin\Debug\net7.0\BlazorPizzaProject.Business.dll
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\bin\Debug\net7.0\BlazorPizzaProject.Business.pdb
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\BlazorPizzaProject.Business.csproj.AssemblyReference.cache
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\BlazorPizzaProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\BlazorPizzaProject.Business.AssemblyInfoInputs.cache
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\BlazorPizzaProject.Business.AssemblyInfo.cs
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\BlazorPizzaProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\BlazorPizzaProject.Business.dll
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\refint\BlazorPizzaProject.Business.dll
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\BlazorPizzaProject.Business.pdb
+C:\Users\Yzl-3\source\repos\BlazorPizzaProject\BlazorPizzaProject.Business\obj\Debug\net7.0\ref\BlazorPizzaProject.Business.dll
